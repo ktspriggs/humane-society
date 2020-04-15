@@ -15,12 +15,13 @@
         <div class="main-wrapper">
 
             <header class="header">
-
+                <!-- <div class="hero-img" style="background-image: url('images/hero.jpg');"></div> -->
+                
                 <nav class="nav-bar">
 
                     <div class="nav-left nav-bar">
                         <div id="logo-img">
-                            <img class="logo-img" src="images/logo.png" alt="Paw logo">
+                            <img class="logo-img" src="images/logo.svg" alt="Paw logo">
                         </div> <!--logo-->
                         <h1 class="title">Furever Friends</h1>
                         <div class="menu">
@@ -34,26 +35,43 @@
                     </div> <!--nav-left-->
 
                     <div class="nav-right nav-bar">
+
                         <button class="button">Donate</button>
+
                         <div class="search">
-                            <img class="search-img" src="images/search.png" alt="Search icon">
-                        </div>
-                    </div> <!--nav-left-->
+                            <img class="search-img" src="images/search.svg" alt="Search icon">
+                        </div> <!--search-->
 
-                    <div class="mobile-menu-container">
-                        <div class="mobile-menu-burger">
-                            <img class="menu-closed" src="images/menu-closed.svg"></div>
-                            <img class="menu-open" src="images/menu-open.svg">
-                        </div> <!--mobile-menu-burger-->
+                        <div class="mobile-menu-container">
+                            <div class="mobile-menu-burger">
+                                <img class="menu-closed" src="images/menu-closed.svg">
+                                <img class="menu-open display-none" src="images/menu-open.svg">
+                            </div> <!--mobile-menu-burger-->
 
+                            <div class="mobile-menu display-none">
+                                <ul class="header-links">
+                                    <li><a class="nav-link" href="#">Adopt</a></li>
+                                    <li><a class="nav-link" href="#">Volunteer</a></li>
+                                    <li><a class="nav-link" href="#">Services</a></li>
+                                    <li><a class="nav-link" href="#">About</a></li>
+                                    <li><a class="nav-link" href="#">Search</a></li>
+                                </ul>
+                            </div> <!--mobile-menu-disply-none-->
+                        </div> <!--mobile-menu-container-->
+                    </div> <!--nav-right-->
+                </nav> <!--nav-bar-->
+            </header> <!--header-->
 
-                    </div> <!--mobile-menu-container-->
-                   
-                </nav>
-
-            </header>
+            <div class="hero">
+                <div class="hero-img" style="background-image: url('images/hero.jpeg');"></div>
+                <div class="hero-text">
+                    
+            </div> <!--hero-->
 
         </div> <!--main-wrapper-->
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+		<script src="js/index.js"></script>
 
     </body>
 
