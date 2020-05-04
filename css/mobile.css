@@ -1,21 +1,7 @@
-@media only screen and (max-width: 992px) {
-    
-    .button {
-        width: 100px;
-    }
-}
+
 
 @media only screen and (max-width: 768px) {
     
-    .nav-bar {
-        justify-content: unset;
-    }
-
-    .nav-right {
-        margin-right: 0;
-        width: 25%;
-    }
-
     .menu {
         display: none;
     }
@@ -34,7 +20,7 @@
         top: 80px;
         left: 0;
         z-index: 1;
-        background-color: grey;
+        background-color:#EEEEEE;
     }
 
     .header-links {
@@ -66,13 +52,8 @@
     }
 
     .title {
-        margin: 18px;
-        font-size: 20px;
-    }
-
-    .nav-right {
-        width: auto;
-        margin: 18px;
+        margin: 18px 0 18px 13px;
+        font-size: 19px;
     }
 
     .button {
