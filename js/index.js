@@ -4,10 +4,11 @@ $(document).ready(function (){
     var menuOpen = $('.menu-open');
     var mobileMenu = $('.mobile-menu');
     var mainContent = $('.main-content');
-    var searchImg = $('.search-img');
+    var searchClosed = $('.search-closed');
+    var form = $('.form');
     //var mobileMenuLink = $('.menu li a');//
-
-    //menu opens and closes and main content opacity changes//
+console.log(form);
+    //menu opens and closes and mainContent opacity changes//
     mobileMenuBurger.on('click', function () {
         menuClosed.toggleClass('display-none');
         menuOpen.toggleClass('display-none');
@@ -25,7 +26,20 @@ $(document).ready(function (){
         mobileMenu.slideToggle("slow");
     });
 
-    //click on searchImg searchBar opens//
+    //click on searchClosed, searchBar opens and mainContent brightness changes//
+    searchClosed.on('click', function () {
+        form.toggleClass('display-show');
+        mainContent.toggleClass('darker');
+    });
+
+    //click anywhere on mainContent, form will close//
+    mainContent.on('click', function () {
+
+    });
+
+
+
+   
     
 
 
