@@ -13,7 +13,7 @@
 
     <body>
 
-        <div class="main-wrapper">
+        <div class="header-wrapper">
 
             <header class="header">
                 <!-- <div class="hero-img" style="background-image: url('images/hero.jpg');"></div> -->
@@ -22,9 +22,9 @@
 
                     <div class="nav-left nav-bar">
                         <div id="logo-img">
-                            <img class="logo-img" src="images/logo.svg" alt="Paw logo">
+                            <a href="index.html"><img class="logo-img" src="images/logo.svg" alt="Paw logo"></a>
                         </div> <!--logo-->
-                        <h1 class="title">Furever Friends</h1>
+                        <a href="index.html" class="title"><h1 class="title">Furever Friends</h1></a>
                         <div class="menu">
                             <ul class="header-links">
                                 <li><a class="nav-link" href="#">Adopt</a></li>
@@ -62,19 +62,65 @@
                     </div> <!--nav-right-->
                 </nav> <!--nav-bar-->
 
-                <form class="form">
-                    <input class="search-bar" type="text" placeholder="What are you looking for?">
-                    <!-- <button class="search-button" type="submit"><i class="fas fa-search fa-3x"></i></button> -->
-                    <input type="submit" class="search-button" value="Search" name="search">
-                </form>
-
+                <div class="form-container">
+                    <form class="form">
+                        <input class="search-bar" type="text" placeholder="What are you looking for?">
+                        <!-- <button class="search-button" type="submit"><i class="fas fa-search fa-3x"></i></button> -->
+                        <input type="submit" class="search-button" value="Search" name="search">
+                    </form>
+                </div> <!--form-container-->
             </header> <!--header-->
+        </div> <!--header-wrapper-->
 
-            <div class="hero main-content">
+        <div class="main-wrapper">
+
+             <div class="hero main-content">
                 <div class="hero-img" style="background-image: url('images/hero.jpeg');"></div>
                 <div class="hero-text">
-                    
-            </div> <!--hero-->
+             </div> <!--hero-->
+        
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <h1>Adopt</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Egestas egestas fringilla phasellus faucibus scelerisque
+                        eleifend donec pretium. Viverra vitae congue eu consequat ac 
+                        felis donec. Neque laoreet suspendisse interdum consectetur 
+                        libero. 
+                    </p>
+                </div> <!--card-->
+            </div><!--column-->
+            <div class ="column">
+                <div class="card">
+                    <h1>Resources</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna 
+                        aliqua. Cras pulvinar mattis nunc sed. Risus viverra adipiscing 
+                        at in tellus. Donec et odio pellentesque diam volutpat. Purus semper 
+                        eget duis at. Id volutpat lacus laoreet non curabitur gravida.
+                    </p>
+                </div> <!--card-->
+            </div>  <!--column-->
+            <div class="column">
+                <div class="card">
+                    <h1>Report Cruetly</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+                        do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Mus mauris vitae ultricies leo integer malesuada nunc vel risus. 
+                        Euismod nisi porta lorem mollis aliquam ut porttitor leo. Purus 
+                        sit amet luctus venenatis lectus magna. Sem fringilla ut morbi
+                        tincidunt augue. 
+                    </p>
+                </div> <!--card-->
+            </div> <!--column-->
+        </div><!--row-->
+
+
 
         </div> <!--main-wrapper-->
 

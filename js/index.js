@@ -34,10 +34,9 @@ console.log(form);
 
     //click anywhere on mainContent, form will close//
     mainContent.on('click', function () {
-
+       
     });
-
-
+   
 
    
     
