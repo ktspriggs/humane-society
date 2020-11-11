@@ -3,8 +3,37 @@
         width: 83px;
     }
 }
+
+@media only screen and (max-width: 968px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column {
+        width: 78%;
+    }
+
+    .card {
+        margin-bottom: 40px;
+    }
+
+    .card-content {
+        min-height: auto;
+        margin-bottom: 40px;
+    }
+
+    #bottom-card {
+        margin-bottom: 0px;
+    }
+}
+
 @media only screen and (max-width: 768px) {
-    
+   
+    .nav-link:hover {
+        color: var(--primary-color);
+    }
+
     .menu {
         display: none;
     }
@@ -24,11 +53,13 @@
 
     .mobile-menu {
         width: 100%;
+        height: 320px;
         position: absolute;
         top: 80px;
         left: 0;
         z-index: 1;
-        background-color:#EEEEEE;
+        background-color:#CAC9C9;
+        border-radius: 8px;
     }
 
     .header-links {
@@ -40,8 +71,9 @@
     }
 
     .mobile-menu li {
-        padding: 15px 0 15px 0;
-        display: block;
+        display: flex;
+        justify-content: center;
+        padding: 3px;
         position: relative;
         border-bottom: #dddddd 1px solid;
     }
@@ -50,13 +82,54 @@
         height: 440px;
     }
 
+    .column {
+        width: 66%;
+    }
 
+    .statement-title {
+        top: 191px;
+        left: 256px;
+    }
+
+    .statement-content {
+        top: 261px;
+        left: 193px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .mission-statement {
+        flex-direction: column;
+    }
+
+    .mission-statement-right {
+        width: 90%;
+        margin-bottom: 40px;
+    }
+
+    .statement-title {
+        padding: 20px;
+    }
+
+    .mission-statement-left {
+        width: 85%;
+    }
+
+    .card {
+        box-shadow: none;
+    }
 }
 
 @media only screen and (max-width: 448px) {
 
     .logo-img {
         display: none;
+    }
+
+    .mobile-menu-burger {
+        position: absolute;
+        top: 20px;
+        right: 0px;
     }
 
     .title {
@@ -66,5 +139,29 @@
 
     .button {
         display: none;
+    }
+
+    .column {
+        width: 86%;
+    }
+
+    .card {
+        box-shadow: initial;
+    }
+
+    .statement-title {
+        top: 139px;
+        left: 113px;
+        font-size: 4.5vw;
+    }
+
+    .statement-content {
+        top: 211px;
+        left: 129px;
+        font-size: 3.5vw;
+    }
+
+    .content-text { 
+        font-size: 18px;
     }
 }

@@ -19,6 +19,7 @@ console.log(form);
     //click on menuClosed menu transitions open//
     menuClosed.on('click', function () {
         mobileMenu.slideToggle("slow");
+
     });
 
     //click on menuOpen menu transitions closed//

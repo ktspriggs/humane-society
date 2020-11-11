@@ -2,131 +2,303 @@
 
 <html>
 
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/humane-society.css">
-        <link rel="stylesheet" type="text/css" href="css/mobile.css">
-        <script src="https://kit.fontawesome.com/598890ec37.js" crossorigin="anonymous"></script>
-        <title>Furever Friends</title>
-    </head>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/humane-society.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
+    <script src="https://kit.fontawesome.com/598890ec37.js" crossorigin="anonymous"></script>
+    <title>Furever Friends</title>
+</head>
 
-    <body>
+<body>
 
-        <div class="header-wrapper">
+    <div class="header-wrapper">
 
-            <header class="header">
-                <!-- <div class="hero-img" style="background-image: url('images/hero.jpg');"></div> -->
-                
-                <nav class="nav-bar">
+        <header class="header">
+            <!-- <div class="hero-img" style="background-image: url('images/hero.jpg');"></div> -->
 
-                    <div class="nav-left nav-bar">
-                        <div id="logo-img">
-                            <a href="index.html"><img class="logo-img" src="images/logo.svg" alt="Paw logo"></a>
-                        </div> <!--logo-->
-                        <a href="index.html" class="title"><h1 class="title">Furever Friends</h1></a>
-                        <div class="menu">
+            <nav class="nav-bar">
+
+                <div class="nav-left nav-bar">
+                    <div id="logo-img">
+                        <a href="index.html"><img class="logo-img" src="images/logo.svg" alt="Paw logo"></a>
+                    </div>
+                    <!--logo-->
+                    <div class="menu">
+                        <ul class="header-links">
+                            <li><a class="nav-link white-color" href="#">Adopt</a></li>
+                            <li><a class="nav-link white-color" href="#">Volunteer</a></li>
+                            <li><a class="nav-link white-color" href="#">Services</a></li>
+                            <li><a class="nav-link white-color" href="#">About</a></li>
+                        </ul>
+                    </div>
+                    <!--menu-->
+                </div>
+                <!--nav-left-->
+
+                <div class="nav-right nav-bar">
+
+                    <button class="button primary-button donate-button white-color">Donate</button>
+
+                    <div class="search-closed">
+                        <img class="search-img" src="images/search.svg" alt="Search icon" style="color: white">
+                    </div>
+                    <!--search-->
+
+                    <div class="mobile-menu-container">
+                        <div class="mobile-menu-burger">
+                            <img class="menu-closed" src="images/menu-closed.svg">
+                            <img class="menu-open display-none" src="images/menu-open.svg">
+                        </div>
+                        <!--mobile-menu-burger-->
+
+                        <div class="mobile-menu display-none">
                             <ul class="header-links">
                                 <li><a class="nav-link" href="#">Adopt</a></li>
                                 <li><a class="nav-link" href="#">Volunteer</a></li>
                                 <li><a class="nav-link" href="#">Services</a></li>
                                 <li><a class="nav-link" href="#">About</a></li>
+                                <li><a class="nav-link" href="#">Search</a></li>
                             </ul>
-                        </div> <!--menu-->
-                    </div> <!--nav-left-->
+                        </div>
+                        <!--mobile-menu-disply-none-->
+                    </div>
+                    <!--mobile-menu-container-->
+                </div>
+                <!--nav-right-->
+            </nav>
+            <!--nav-bar-->
 
-                    <div class="nav-right nav-bar">
+            <form class="form">
+                <input class="search-bar" type="text" placeholder="What are you looking for?">
+                <!-- <button class="search-button" type="submit"><i class="fas fa-search fa-3x"></i></button> -->
+                <input type="submit" class="button primary-button search-button" value="Search" name="search">
+            </form>
+        </header>
+        <!--header-->
+    </div>
+    <!--header-wrapper-->
 
-                        <button class="button">Donate</button>
+    <div class="main-wrapper">
 
-                        <div class="search-closed">
-                            <img class="search-img" src="images/search.svg" alt="Search icon">
-                        </div> <!--search-->
-
-                        <div class="mobile-menu-container">
-                            <div class="mobile-menu-burger">
-                                <img class="menu-closed" src="images/menu-closed.svg">
-                                <img class="menu-open display-none" src="images/menu-open.svg">
-                            </div> <!--mobile-menu-burger-->
-
-                            <div class="mobile-menu display-none">
-                                <ul class="header-links">
-                                    <li><a class="nav-link" href="#">Adopt</a></li>
-                                    <li><a class="nav-link" href="#">Volunteer</a></li>
-                                    <li><a class="nav-link" href="#">Services</a></li>
-                                    <li><a class="nav-link" href="#">About</a></li>
-                                    <li><a class="nav-link" href="#">Search</a></li>
-                                </ul>
-                            </div> <!--mobile-menu-disply-none-->
-                        </div> <!--mobile-menu-container-->
-                    </div> <!--nav-right-->
-                </nav> <!--nav-bar-->
-
-                <div class="form-container">
-                    <form class="form">
-                        <input class="search-bar" type="text" placeholder="What are you looking for?">
-                        <!-- <button class="search-button" type="submit"><i class="fas fa-search fa-3x"></i></button> -->
-                        <input type="submit" class="search-button" value="Search" name="search">
-                    </form>
-                </div> <!--form-container-->
-            </header> <!--header-->
-        </div> <!--header-wrapper-->
-
-        <div class="main-wrapper">
-
-             <div class="hero main-content">
+        <div class="hero hero-container main-content">
+            <div class="img-wrapper white-color">
+                <div class="img-overlay"></div>
                 <div class="hero-img" style="background-image: url('images/hero.jpeg');"></div>
-                <div class="hero-text">
-             </div> <!--hero-->
-        
-        <div class="row">
+                <div class="title">
+                    <h1 class="white-color">Furever Friends</h1>
+                </div>
+                <!--title-->
+            </div>
+            <!--img-wrapper-->
+        </div>
+        <!--hero-->
+
+
+        <div class="card-container">
             <div class="column">
                 <div class="card">
-                    <h1>Adopt</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna
-                        aliqua. Egestas egestas fringilla phasellus faucibus scelerisque
-                        eleifend donec pretium. Viverra vitae congue eu consequat ac 
-                        felis donec. Neque laoreet suspendisse interdum consectetur 
-                        libero. 
-                    </p>
-                </div> <!--card-->
-            </div><!--column-->
-            <div class ="column">
-                <div class="card">
-                    <h1>Resources</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna 
-                        aliqua. Cras pulvinar mattis nunc sed. Risus viverra adipiscing 
-                        at in tellus. Donec et odio pellentesque diam volutpat. Purus semper 
-                        eget duis at. Id volutpat lacus laoreet non curabitur gravida.
-                    </p>
-                </div> <!--card-->
-            </div>  <!--column-->
+                    <i class="fas fa-cat fa-3x"></i>
+                    <h2 class="heading">Adopt</h2>
+                    <div class="card-content">
+                        <p>
+                            Pet me pet me don't pet me skid on floor, crash into
+                            wall man running from cops stops to pet cats, goes to
+                            jail or hate dog. Stares at human while pushing stuff off
+                            a table destroy the blinds. Present belly and scratch.
+                        </p>
+                    </div>
+                    <!--card-content-->
+                    <button class="button secondary-button white-color">Adopt</button>
+                </div>
+                <!--card-->
+            </div>
+            <!--column-->
             <div class="column">
                 <div class="card">
-                    <h1>Report Cruetly</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
-                        do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Mus mauris vitae ultricies leo integer malesuada nunc vel risus. 
-                        Euismod nisi porta lorem mollis aliquam ut porttitor leo. Purus 
-                        sit amet luctus venenatis lectus magna. Sem fringilla ut morbi
-                        tincidunt augue. 
+                    <i class="fas fa-book-reader fa-3x"></i>
+                    <h2 class="heading">Resources</h2>
+                    <div class="card-content">
+                        <p class="card-text">
+                            Puppy kitty ipsum dolor sit good dog foot stick canary. Teeth
+                            Mittens grooming vaccine walk swimming nest good boy furry tongue
+                            heel furry treats fish. Cage run fast kitten dinnertime ball run
+                            foot park fleas throw house train.
+                        </p>
+                    </div>
+                    <!--card-content-->
+                    <button class="button secondary-button">Explore</button>
+                </div>
+                <!--card-->
+            </div>
+            <!--column-->
+            <div class="column">
+                <div class="card" id="bottom-card">
+                    <i class="far fa-hand-paper fa-3x"></i>
+                    <h2 class="heading">Cruetly</h2>
+                    <div class="card-content">
+                        <p>
+                            Purr for no reason need to chase tail, but cat is love, cat
+                            is life and white cat sleeps on a black shirt yet shred all
+                            toilet paper and spread around the house for rub my belly
+                            hiss kick up litter. Sit on human they not getting up ever
+                        </p>
+                    </div>
+                    <!--card-content-->
+                    <button class="button secondary-button">Report</button>
+                </div>
+                <!--card-->
+            </div>
+            <!--column-->
+        </div>
+        <!--row-->
+
+        <div class="mission-statment-container">
+            <div class="mission-statement">
+                <div class="mission-statement-right">
+                    <div class="left-content">
+                        <h3 class="statement-title content-text heading">Our Mission Statement</h3>
+                        <p class="statement-content">
+                            Doggo ipsum bork pupper mlem I am bekom fat, sub
+                            woofer. Mlem such treat much ruin diet clouds wow
+                            such tempt, long woofer very taste wow. Borkdrive
+                            you are doing me a frighten you are doin me a concern
+                            most angery pupper I have ever seen floofs, what a
+                            nice floof noodle horse. Borkf wow very biscit the
+                            neighborhood pupper blop boofers, you are doin me a
+                            concern floofs. Shibe bork wow very biscit waggy wags,
+                            yapper.
+                        </p>
+                    </div>
+                    <!--left-content-->
+                </div>
+                <!--mission-statement-right-->
+                <div class="mission-statement-left">
+                    <div class="background-image mission-statement-img"
+                        style="background-image: url('images/mission-statement.jpg');"></div>
+                </div>
+                <!--mission-statment-left-->
+            </div>
+            <!--mission-statement-->
+        </div>
+        <!--mission-statment-container-->
+
+        <div class="testimonial-container">
+            <div class="testimonial-content">
+                <i class="fas fa-quote-left fa-8x" style="color:#f1f0f0"></i>
+                <div class="testimonial-center">
+                    <p class="testimonial-text content-text">
+                        "Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua."
                     </p>
-                </div> <!--card-->
-            </div> <!--column-->
-        </div><!--row-->
+                    <div class="name-line"></div>
+                    <!--name-line-->
+                    <span class="testimonial-source">Yo mamma</span>
+                </div>
+                <!--testimonial-center-->
+            </div>
+            <!--testimonal-content-->
+        </div>
+        <!--testimonial-->
+
+        <div class="images-container">
+            <div class="images-content">
+                <div class="images-section left-section">
+                    <div class="images">
+                        <span class="background-image left-image"
+                            style="background-image: url('images/picture-1.jpg');"></span>
+                    </div>
+                    <!--picture-content-->
+                    <div class="images">
+                        <span class="background-image left-image"
+                            style="background-image: url('images/picture-2.jpg');"></span>
+                    </div>
+                    <!--picture-content-->
+                    <div class="images">
+                        <span class="background-image left-image"
+                            style="background-image: url('images/picture-3.jpg');"></span>
+                    </div>
+                    <!--picture-content-->
+                    <div class="images">
+                        <span class="background-image left-image"
+                            style="background-image: url('images/picture-4.jpg');"></span>
+                    </div>
+                    <!--picture-content-->
+                </div>
+                <!--left-section-->
+                <div class="images right-section">
+                    <span class="background-image left-image right-image"
+                        style="background-image: url('images/picture-5.jpg');"></span>
+                </div>
+                <!--right-section-->
+            </div>
+            <!--images-content-->
+
+
+        </div>
+        <!--picture-container-->
+
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="about-section">
+                        <h4 class="white-color">About</h4>
+                        <ul class="footer-links about-links">
+                            <li><a class="foot-link white-color" href="#">Bored + Staff</a></li>
+                            <li><a class="foot-link white-color" href="#">History</a></li>
+                            <li><a class="foot-link white-color" href="#">Tour The Shelter</a></li>
+                            <li><a class="foot-link white-color" href="#">Employment</a></li>
+                        </ul>
+                    </div>
+                    <!--about-section-->
+                    <div class="event-section">
+                        <h4 class="white-color">Events</h4>
+                        <ul class="footer-links event-links">
+                            <li><a class="foot-link white-color" href="#">Calendar of Events</a></li>
+                            <li><a class="foot-link white-color" href="#">Pet Celebration Day</a></li>
+                            <li><a class="foot-link white-color" href="#">Bow Wow Meow Ball</a></li>
+                            <li><a class="foot-link white-color" href="#">Dog Walk</a></li>
+                        </ul>
+                    </div>
+                    <!--event-section-->
+                    <div class="general-section">
+                        <ul class="footer-links event-links">
+                            <li><a class="foot-link white-color" href="#">News</a></li>
+                            <li><a class="foot-link white-color" href="#">Contact Us</a></li>
+                            <li><a class="foot-link white-color" href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--general-section-->
+                <div class="footer-img">
+                    <a href="index.html"><img class="footer-logo" src="images/logo.svg" alt="Paw logo"></a>
+                </div>
+                <!--footer-img-->
+            </div>
+            <div class="socials">
+                <a class="social-link white-color" href="#"><i class="fab fa-facebook-square fa-2x"
+                        alt=" Facebook Link"></i></a>
+                <a class="social-link white-color" href="#"><i class="fab fa-instagram fa-2x"
+                        alt="Instagram Link"></i></a>
+            </div>
+            <!--socials-->
+            <!--footer-content-->
+        </div>
+        <!--footer-containter-->
 
 
 
-        </div> <!--main-wrapper-->
 
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-		<script src="js/index.js"></script>
 
-    </body>
+
+    </div>
+    <!--main-wrapper-->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="js/index.js"></script>
+
+</body>
 
 </html>
