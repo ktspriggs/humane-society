@@ -404,8 +404,8 @@ h2 {
 /*Footer Section*/
 
 .footer-container {
-    padding: 15px 0;
     width: 100%;
+    padding: 45px;
     background: var(--primary-color);
 }
 
@@ -426,6 +426,10 @@ h2 {
     text-decoration: none;
     line-height: 1.5;
 }
+.footer-section {
+    padding-right: 10px;
+}
+
 h4 {
     margin-bottom: 5px;
     color: black;
@@ -441,12 +445,16 @@ h4 {
 }
 
 .footer-logo {
-    width: 30%;
+    width: 4vw;
 }
 
 .socials {
-    text-align: center;
+    width: 87%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
 }
 .social-link {
+    margin: 9px;
 }
 

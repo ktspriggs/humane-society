@@ -118,6 +118,35 @@
     .card {
         box-shadow: none;
     }
+
+
+.footer-content {
+    display: inherit;
+}
+
+.footer-left {
+    flex-direction: column;
+}
+
+.footer-section {
+    text-align: center;
+    padding: 0 0 30px;
+}
+
+.footer-img {
+    width: 100%;
+    text-align: center;
+}
+
+.socials {
+    width: 100%;
+    justify-content: center;
+}
+
+.social-link {
+    margin: 15px 4px 15px 8px;
+}
+
 }
 
 @media only screen and (max-width: 448px) {
