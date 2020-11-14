@@ -23,8 +23,8 @@
         margin-bottom: 40px;
     }
 
-    #bottom-card {
-        margin-bottom: 0px;
+    .card-content:last-child {
+        margin-bottom: 0;
     }
 }
 
@@ -86,42 +86,6 @@
         width: 66%;
     }
 
-    .statement-title {
-        top: 191px;
-        left: 256px;
-    }
-
-    .statement-content {
-        top: 261px;
-        left: 193px;
-    }
-
-    .images-content {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .left-section {
-        width: 100%;
-        justify-content: space-between;
-        margin-bottom: 45px;
-    }
-
-    .top-row {
-        margin-bottom: 10px;
-    }
-
-    .images {
-        width: 48%;
-        margin: none;
-    }
-
-    .right-section {
-        width: 100%;
-    }
-}
-
-@media only screen and (max-width: 640px) {
     .mission-statement {
         flex-direction: column;
     }
@@ -159,6 +123,28 @@
     .right-section {
         width: 100%;
     }
+
+    .images-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-section {
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 45px;
+    }
+
+    .top-row {
+        margin-bottom: 10px;
+    }
+
+    .right-section {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
 
     .footer-content {
         display: inherit;

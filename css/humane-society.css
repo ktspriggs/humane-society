@@ -294,7 +294,7 @@ h2 {
     align-items: center;
 }
 
-.mission-statement-left {
+.statement-section { 
     width: 47%;
     margin-right: 5px;
 }
@@ -310,11 +310,6 @@ h2 {
 }
 .statement-content {
     line-height: 1.6;
-}
-
-.mission-statement-right {
-    width: 47%;
-    margin-left: 5px;
 }
 
 .mission-statement-img {
@@ -428,6 +423,7 @@ h2 {
 }
 
 h4 {
+    text-decoration: underline;
     margin-bottom: 5px;
     color: black;
 }

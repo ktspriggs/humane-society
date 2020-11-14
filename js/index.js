@@ -1,4 +1,4 @@
-$(document).ready(function (){
+$(document).ready(function () {
     var mobileMenuBurger = $('.mobile-menu-burger');
     var menuClosed = $('.menu-closed');
     var menuOpen = $('.menu-open');
@@ -6,8 +6,9 @@ $(document).ready(function (){
     var mainContent = $('.main-content');
     var searchClosed = $('.search-closed');
     var form = $('.form');
+
     //var mobileMenuLink = $('.menu li a');//
-console.log(form);
+    console.log(form);
     //menu opens and closes and mainContent opacity changes//
     mobileMenuBurger.on('click', function () {
         menuClosed.toggleClass('display-none');
@@ -35,12 +36,12 @@ console.log(form);
 
     //click anywhere on mainContent, form will close//
     mainContent.on('click', function () {
-       
-    });
-   
 
-   
-    
+    });
+
+
+
+
 
 
 
