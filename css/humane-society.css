@@ -303,6 +303,15 @@ form {
     background-color:white;
 }
 
+.card a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.card a:hover {
+    color: var(--light-color);
+}
+
 .card i {
     color: var(--primary-color);
 }
