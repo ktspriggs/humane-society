@@ -26,6 +26,49 @@
     .card-content:last-child {
         margin-bottom: 0;
     }
+
+    .images {
+        width: 100%;
+    }
+
+    .bottom-row {
+        display: none;
+    }
+
+    .right-section {
+        width: 100%;
+    }
+
+    .images-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-section {
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 45px;
+    }
+
+    .top-row {
+        margin-bottom: 10px;
+    }
+
+    .right-section {
+        width: 100%;
+    }
+
+    .right-half {
+        height: 75vh;
+    }
+
+    .footer-section {
+        margin-right: 70px;
+    }
+
+    .adopt-title h1{
+        left: 25%;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -82,6 +125,12 @@
         height: 440px;
     }
 
+    .title h1 {
+        top: 18%;
+        left: 23%;
+        font-size: 5rem;
+    }
+
     .column {
         width: 66%;
     }
@@ -99,6 +148,10 @@
         padding: 20px;
     }
 
+    .statement-content {
+        margin-bottom: 30px;
+    }
+
     .mission-statement-left {
         width: 85%;
     }
@@ -112,36 +165,13 @@
         margin-bottom: 0;
     }
 
-    .images {
-        width: 100%;
+    .adopt-title h1{
+        top: 35%;
+        left: 30%;
+        font-size: 4rem;
+        letter-spacing: 28px;
     }
-
-    .bottom-row {
-        display: none;
-    }
-
-    .right-section {
-        width: 100%;
-    }
-
-    .images-content {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .left-section {
-        width: 100%;
-        justify-content: space-between;
-        margin-bottom: 45px;
-    }
-
-    .top-row {
-        margin-bottom: 10px;
-    }
-
-    .right-section {
-        width: 100%;
-    }
+    
 }
 
 @media only screen and (max-width: 640px) {
@@ -156,6 +186,7 @@
 
     .footer-section {
         text-align: center;
+        margin-right: 0;
         padding: 0 0 30px;
     }
 
@@ -173,12 +204,24 @@
         margin: 15px 4px 15px 8px;
     }
 
+    .adopt-title h1 {
+        left: 25%;
+        font-size: 3.5rem;
+    }
+
 }
 
 @media only screen and (max-width: 448px) {
 
     .logo-img {
         display: none;
+    }
+
+    .secondary-logo {
+        display: inline;
+        width: 2rem;
+        margin: 0;
+        padding: 10px 0;
     }
 
     .mobile-menu-burger {
@@ -219,4 +262,19 @@
     .content-text { 
         font-size: 18px;
     }
+
+    .adopt-title h1 {
+        left: 26%;
+        font-size: 3rem;
+        letter-spacing: 15px;
+    }
 }
+
+@media only screen and (max-width: 320px) {
+    
+    .adopt-title h1 {
+        left: 17%;
+    }  
+}
+
+

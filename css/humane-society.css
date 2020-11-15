@@ -7,7 +7,8 @@
 :root {
     --primary-color: #da5d92;
     --secondary-color: #75583e;
-    --lighter-primary-color: #ffbdd9;
+    --lighter-primary-color: #ffa0c8;
+    --secondary-darker-coloer: #5a3819;
     --light-color: #FFFFFF;
 
 }
@@ -181,18 +182,32 @@ form {
     padding: 0;
 }
 
-.top-half {
-    background-image: url("../images/picture-1.jpg"), url("../images/picture-2.jpg");
-    height: 30vh;
+.images-left {
+    height: 34vh;
 }
 
-.images,.right-half {
+.top-row-left {
+    background-image: url("../images/picture-1.jpg"); 
+}
+
+.top-row-right {
+    background-image: url("../images/picture-2.jpg");
+}
+
+.bottom-row-left {
+    background-image: url("../images/picture-3.jpg");
+}
+
+.bottom-row-right {
+    background-image: url("../images/picture-4.jpg");
+}
+
+.right-half {
     background-image: url("../images/picture-5.jpg");
-    height: 75vh;
 }
 
 .adopt-hero {
-    background-image: url(url("../images/adopt-hero.jpg");
+    background-image: url("../images/adopt-hero.jpg");
     opacity: 0.4;
 }
 
@@ -204,7 +219,7 @@ form {
 
 .mobile-menu-burger {
     width: 17px;
-    margin-right: 15px;
+    margin-right: 24px;
     height: inherit;
     cursor: pointer;
 }
@@ -254,12 +269,13 @@ form {
     background: rgba(0,0,0,0.3);
 }
 
-h1 {
+.title h1 {
     max-width: 54%;
     position: absolute;
     top: 39%;
     left: 28%;
     font-size: 7rem;
+    font-weight: 800;
     text-align: center;
 }
 
@@ -408,15 +424,15 @@ h2 {
     flex-wrap: wrap;
 }
 
+.top-row {
+    margin-bottom: 10px;
+}
+
 .left-image {
     width: 100%;
     height: 190px;
 }
 
-
-.right-image {
-    min-height: 398px;
-}
 
 /*Footer Section*/
 
@@ -442,9 +458,6 @@ h2 {
 .footer-content a {
     text-decoration: none;
     line-height: 1.5;
-}
-.footer-section {
-    padding-right: 10px;
 }
 
 h4 {
@@ -488,26 +501,53 @@ h4 {
     background-color: rgba(213,213,213,0.70);
 }
 
+.adopt-hero {
+    margin-bottom: 100px;
+}
+
 .adopt-title h1 {
-    left: 27%;
-    top: 47%;
+    left: 33%;
+    top: 51%;
     letter-spacing: 40px;
-    font-size: 10rem;
+    font-size: 7rem;
     font-weight: 800;
-    color: var(--secondary-color);
+    color: var(--secondary-darker-coloer);
 }
 
 .adopt-menu a {
     color: var(--primary-color);
 }
 
+/* Avaialable Animals */
+
+.available-animals {
+    width: 90%;
+    margin: 0 auto 200px;
+}
+
+.animal-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .animal-search {
     border: 1px solid #f9f9f9;
-    padding: 1.5em 5em 1em 5em;
+    padding: 1.5em 4em;
     border-radius: 4px;
     text-transform: uppercase;
+    text-decoration: none;
     letter-spacing: 1px;
-    background-color: var(--primary-color);
+    background-color: var(--lighter-primary-color);
     color: var(--light-color);
     font-weight: 600;
+}
+
+.animal-search:hover{
+    background-color: var(--primary-color);
+    transition: 0.3s ease-in-out;
+}
+
+
+.animal-icon {
+    padding-right: 15px;
 }
