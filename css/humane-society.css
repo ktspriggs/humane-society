@@ -500,18 +500,14 @@ h4 {
 
 /*Adopt Page*/
 
-.adopt-menu a {
-    color: var(--primary-color);
-}
-
 /*Hero Section*/
+
+.adopt-hero {
+    margin-bottom: 0;
+}
 
 .adopt-overlay {
     background-color: rgba(213,213,213,0.70);
-}
-
-.adopt-hero {
-    margin-bottom: 100px;
 }
 
 .adopt-title h1 {
@@ -531,7 +527,8 @@ h4 {
 
 .available-animals {
     width: 90%;
-    margin: 0 auto 200px;
+    margin: 0 auto;
+    padding: 7rem;
 }
 
 .animal-buttons {
@@ -556,7 +553,17 @@ h4 {
     transition: 0.3s ease-in-out;
 }
 
-
 .animal-icon {
     padding-right: 15px;
+}
+
+.highlight-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.highlight-img {
+    background-image: url("../images/highlight-img.jpg");
+    width: 30%;
+    height: 72vh;
 }
