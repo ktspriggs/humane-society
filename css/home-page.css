@@ -1,0 +1,217 @@
+/* Hero Section */
+
+.hero-img {
+    background-image: url('../images/hero.jpeg');
+    margin-bottom: 200px;
+}
+
+.title h1 {
+    max-width: 54%;
+    position: absolute;
+    top: 39%;
+    left: 28%;
+    font-size: 7rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+/* Buttons */
+
+.secondary-button {       
+    border-width: thin;
+    background: none;
+    color: var(--primary-color);
+    text-decoration: none;
+    border-color: var(--primary-color);
+ }
+ 
+ .secondary-button:hover {
+     background-color: var(--primary-color);
+     color: var(--light-color);
+ }
+
+ /* Card Section */ 
+
+.mobile-card-section {
+    display: none;
+}
+
+.column {
+    width: 24%;
+}
+
+.card-container {
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    box-shadow: 0px 13px 18px 3px rgba(36,37,38,0.06);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    background-color:white;
+}
+
+.card a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.card a:hover {
+    color: var(--light-color);
+}
+
+.card i {
+    color: var(--primary-color);
+}
+
+h2 {
+    padding: 20px;
+}
+
+.card-content {
+    min-height: 265px;
+    padding-top: 25px;
+    line-height: 1.5;
+}
+
+/*Mission Statment*/
+
+.mission-statment-container {
+    width: 100%;
+    padding: 0 50px 0;
+    margin-bottom: 200px;
+}
+
+.mission-statement {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.statement-section { 
+    width: 47%;
+    margin-right: 5px;
+}
+
+.left-content {
+    width: 100%;
+    text-align: center;
+}
+
+.statement-title {
+    width: 100%;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.statement-content {
+    line-height: 1.6;
+}
+
+.mission-statement-img {
+    width: 100%;
+    height: 461px;
+}
+
+/* Testimonial */
+
+.testimonial-container {
+    width: 100%;
+    margin: 0 auto 200px;
+}
+
+.testimonial-content {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.testimonial-center {
+    margin-top: -65px;
+    text-align: center;
+}
+
+.testimonial-text {
+    width: 75%;
+    margin: 0 auto;
+    font-size: 24px;
+    color: var(--primary-color);
+    text-align: center;
+    line-height: 1.5;
+}
+
+.name-line {
+    height: 2px;
+    width: 60px;
+    margin: 10px auto;
+    background-color: var(--secondary-color);
+}
+
+.testimonial-source {
+    font-size: 14px;
+    color: var(--secondary-color); 
+}
+
+/* Image Section */
+
+.images-container {
+    width: 100%;
+    padding: 0 50px 0;
+    margin-bottom: 200px;
+}
+
+.images-content {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.images {
+    width: 48%;
+}
+
+.left-section {
+    width: 48%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.images-left {
+    height: 34vh;
+}
+
+.top-row {
+    margin-bottom: 10px;
+}
+
+.right-section {
+    background-image: url("../images/mission-statement.jpg");
+    height: 70vh;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.top-row-left {
+    background-image: url("../images/picture-1.jpg"); 
+}
+
+.top-row-right {
+    background-image: url("../images/picture-2.jpg");
+}
+
+.bottom-row-left {
+    background-image: url("../images/picture-3.jpg");
+}
+
+.bottom-row-right {
+    background-image: url("../images/picture-4.jpg");
+}
+
+.right-half {
+    background-image: url("../images/picture-5.jpg");
+}
