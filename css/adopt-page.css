@@ -20,6 +20,7 @@
     left: 33%;
     top: 51%;
     position: absolute;
+    text-align: center;
     letter-spacing: 40px;
     font-size: 7rem;
     font-weight: 800;
@@ -63,10 +64,21 @@
 .highlight-container {
     width: 90%;
     margin: 0 auto;
+    display: flex;
 }
 
 .highlight-img {
     background-image: url("../images/highlight-img.jpg");
-    width: 30%;
-    height: 72vh;
+    width: 60%;
+    height: 70vh;
+}
+
+.left-content {
+    width: 48%;
+    margin: 0 auto;
+}
+
+.right-content {
+    width: 48%;
+    margin: 0 auto;
 }
