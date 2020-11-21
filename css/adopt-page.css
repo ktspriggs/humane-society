@@ -42,8 +42,10 @@
 
 .animal-search {
     border: 1px solid #f9f9f9;
+    margin: 20px;
     padding: 1.5em 4em;
     border-radius: 4px;
+    text-align: center;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 1px;
@@ -57,9 +59,9 @@
     transition: 0.3s ease-in-out;
 }
 
-.animal-icon {
+/* .animal-icon {
     padding-right: 15px;
-}
+} */
 
 /* Highlight Section */
 
@@ -83,7 +85,7 @@
 
 .highlight-img {
     background-image: url("../images/highlight-img.jpg");
-    width: 30%;
+    width: 40vh;
     height: 70vh;
 }
 
@@ -97,7 +99,7 @@
     line-height: 2;
 }
 
-.underline {
+.info {
     color: var(--primary-color);
     padding-right: 5px;
     font-weight: bold;
